@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.footerArea {
+	padding: 70px 0px 0px 0px;
+	text-align: center;
+	border-top: 0px solid #fff;
+}
+
+.footerCompany {
+	height: 50px;
+	line-height: 50px;
+	border-top: 2px solid #f6f6f6;
+	border-bottom: 2px solid #f6f6f6;
+	text-align: center;
+}
+
+.footerCompany h3 {
+	position: absolute;
+	top: -9999px;
+}
+
+.footerCompany ul {
+	height: 50px;
+	line-height: 50px;
+	width: 1024px;
+	display: table;
+	margin: 0px auto;
+}
+
+.footerCompany ul li {
+	display: table-cell;
+	position: relative;
+}
+
+.footerContent {
+	width: 1024px;
+	position: relative;
+	margin: 0px auto;
+	padding: 40px 0px 0px 0px;
+	text-align: left;
+}
+
+.footerContent .customerCenter {
+	padding: 0px 0px 0px 0px;
+}
+
+.footerContent .customerCenter h3 {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 45px;
+	height: 45px;
+}
+
+.footerContent .customerCenter p {
+	height: 28px;
+	line-height: 28px;
+	font-size: 16px;
+}
+
+.footerContent .snsLink{
+	position: absolute;
+    top: 88px;
+    right: 0px;
+    text-align: right;
+}
+
+.footerContent .snsLink a {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.footerInfo{
+	    width: 1024px;
+    position: relative;
+    margin: 0px auto;
+    padding: 40px 0px 30px 0px;
+    color: #828282;
+    text-align: left;
+}
+
+.footerInfo address {
+    line-height: 24px;
+    color: #828282;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.footerInfo ul li {
+    display: inline-block;
+    color: #828282;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.footerInfo p {
+    padding: 20px 0px 0px 0px;
+    color: #828282;
+}
