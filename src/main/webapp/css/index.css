@@ -7,22 +7,21 @@
 #visual>.area {
 	width: 815px;
 	height: 363px;
-	margin: 0 auto;/* 가운데정렬 */
-	overflow: hidden;/* 영역 밖 사진 가리기 */
+	position: relative;
+	margin: 0 auto; /* 가운데정렬 */
+	overflow: hidden;
 }
 
-#visual>.area .imgs{
-	position: relative;/* 이게 있어야 top,left같은 속성 사용 가능 */
+#visual>.area .imgs {
+	position: relative; /* 이게 있어야 top,left같은 속성 사용 가능 */
 }
 
 #visual>.area .imgs li {
 	margin-right: 15px;
 } /* 사진끼리 간격 주기 */
-
 #visual>.area .imgs li:last-child {
 	margin-right: 0;
 } /* 맨 끝 사진은 간격 없애기 */
-
 #visual>.area .imgs li a {
 	display: block; /* 사이즈 반영할라면 block요소로 지정해줘야함 */
 	width: 415px;
@@ -31,3 +30,63 @@
 	background-repeat: no-repeat; /*  */
 }
 
+#visual .btn:hover {
+	cursor: pointer;
+	background-color: #a9a9a9;
+	opacity: 1;
+}
+
+#visual .btn {
+	width: 40px;
+	height: 40px;
+	font-family: 'Monoton', cursive;
+	font-size: 26px;
+	font-weight: 700;
+	border-radius: 20px;
+	position: absolute;
+	top: 161.5px;
+	opacity: 0.25;
+	color: #777;
+	border-color: #aaa;
+	border-style: solid;
+}
+
+#visual .next {
+	padding-left: 3px;
+	right: 10px;
+}
+
+#visual .prev {
+	padding-right: 3px;
+	left: 10px;
+}
+
+#visual .bullet {
+	position: absolute;
+	width: 100%;
+	bottom : 20px;
+	left: 0;
+}
+
+.target {
+	background-color : rgba(0,0,0,0.8) !important;
+	color: #fff;
+}
+
+#visual .bullet li:hover{
+	cursor: pointer;
+	color: red;
+}
+
+#visual .bullet li {
+	border: 1px solid rgba(0,0,0,0.4);
+	width: 20px;
+	height: 20px;
+	background-color : rgba(255,255,255,0.25);
+	color : #777;
+	font-size: 18px;
+	line-height: 28px; /*  */
+	margin: 0 1px; /* 네모칸 띄어쓰기 */
+	text-align: center; /* 텍스트가운데정렬 */
+	border-radius: 5px;
+}
