@@ -25,9 +25,11 @@
 				<div class="wrap area">
 					<ol class="imgs flex">
 						<!-- 사진을 가로로 배치하기 위해 flex 추가 -->
-							<!-- <li> 15개 생성을 위한 반복문 -->
-						<c:forEach begin="0" end="14" varStatus="i"><!-- 얘를 0~14로 설정하면 %안써도 됨 -->
-							<li value="${i.index }"><a href="#" style="font-size: 100px; text-align: center; line-height: 100px">${i.count}</a></li>
+						<!-- <li> 15개 생성을 위한 반복문 -->
+						<c:forEach begin="0" end="14" varStatus="i">
+							<!-- 얘를 0~14로 설정하면 %안써도 됨 -->
+							<li value="${i.index }"><a href="#"
+								style="font-size: 100px; text-align: center; line-height: 100px">${i.count}</a></li>
 						</c:forEach>
 					</ol>
 					<!--///////////////////////////////-->
@@ -46,7 +48,36 @@
 			</section>
 			<section id="main-con">
 				<h1>메인컨텐츠</h1>
-				<div class="wrap"></div>
+				<div class="wrap">
+					<section id="time">
+						<h1>타임특가영역</h1>
+						<div class="wrap">
+							<ul>
+								<li class="goods">
+									<ol class="wrap">
+										<li class="timg">
+											<img alt="이미지대체문구" src="./image/index/image01.jpg" width="280px">
+											<div class="rate">40%</div>
+										</li>	
+										<li class="flex between">
+											<div>05:12:30</div>
+											<div>
+												<span>409</span>개 구매중
+											</div>
+										</li>	
+										<li>
+											매콤순대볶음(300g)
+										</li>
+										<li>
+											<span>5,500</span>원
+											<span>오아시스배송</span>
+										</li>	
+									</ol>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
 			</section>
 		</div>
 	</main>

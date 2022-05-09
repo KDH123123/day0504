@@ -90,3 +90,18 @@
 	text-align: center; /* 텍스트가운데정렬 */
 	border-radius: 5px;
 }
+
+#main-con>.wrap{
+	width: 1024px;
+	margin: 0 auto;
+}
+#time .timg{
+	position: relative;
+}
+
+#time .timg .rate{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;/* 중첩했는데 뒤로가면 얘 써서 앞으로 꺼내 올 수 있음 */
+}

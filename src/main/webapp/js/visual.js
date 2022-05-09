@@ -26,8 +26,8 @@ var flag=0;
 
 function imgLoading(){
 	var lis=$(".imgs li");
-	for(var i=0; i<imgUrls.length; i++){
-		lis.eq(i).find("a").css("background-image",imgUrls[i]);
+	for(var i=0; i<imgsUrls.length; i++){
+		lis.eq(i).find("a").css("background-image",imgsUrls[i]);
 	}
 	//블릿이미지에 첫번째꺼 디자인
 	$(".bullet li").eq(0).addClass("target");
@@ -39,7 +39,7 @@ $(function(){
 	
 	//처음시작은 
 	delayStart();
-	//브라우져가 visibilityState 가 변경될때 실행되는 이벤트
+	//브라우저가 visibilityState 가 변경될때 실행되는 이벤트
 	document.addEventListener("visibilitychange", function() {
 		var state=document.visibilityState;
 		console.log(state);
